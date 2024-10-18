@@ -26,5 +26,5 @@ HR Hub is a user-friendly landing page designed for a human resource business th
 - **Tailwind CSS**: A utility-first CSS framework for designing responsive layouts.
 - **React Icons**: A library of customizable icons for React applications.
 
-## Project Structure
+
 
