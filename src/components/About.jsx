@@ -14,7 +14,6 @@ const About = () => {
         </p>
       </div>
 
-     
       <div className="flex flex-col lg:flex-row justify-between items-center space-y-5 lg:space-y-0 lg:space-x-10 mt-[4rem] lg:mt-8 lg:px-20">
         <div className="w-full lg:w-1/2">
           <h2 className="font-poppins text-gray-700 text-[20px] leading-7 font-medium text-center lg:text-left px-4 lg:px-0">
@@ -30,7 +29,6 @@ const About = () => {
         </div>
       </div>
 
-     
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center space-y-5 lg:space-y-0 lg:space-x-10 mt-8 lg:px-20">
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
@@ -41,7 +39,7 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <h2 className="font-poppins text-gray-700 text-[20px] leading-7 font-medium text-center lg:text-left px-4 lg:px-0">
-            Our vision is to empower organizations to build a highly productive, engaged, and diverse workforce through innovative HR solutions that foster inclusion, optimize talent acquisition, and improve employee retention. 
+            Our vision is to empower organizations to build a highly productive, engaged, and diverse workforce through innovative HR solutions that foster inclusion, optimize talent acquisition, and improve employee retention.
           </h2>
         </div>
       </div>

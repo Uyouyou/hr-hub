@@ -10,7 +10,7 @@ const Hero = () => {
         <p className='font-poppins text-[18px] md:text-[22px] lg:text-[25px] leading-5 font-medium text-white text-center'>
           Streamline HR processes and boost employee engagement with our innovative solutions
         </p>
-        <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 space-x-0 md:space-x-5 mr-0 lg:mr-[3rem]'>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between items-center space-y-4 md:space-y-0 space-x-0 md:space-x-5 lg:mr-[3rem]'>
           <button className='bg-[#708090] text-white hover:bg-[#8899a9] px-6 py-2 rounded-lg transition duration-500 ease-in-out font-poppins font-medium leading-5 text-[16px] md:text-[18px]'>
             Learn more
           </button>

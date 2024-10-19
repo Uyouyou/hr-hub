@@ -43,15 +43,14 @@ const Services = () => {
   return (
     <section className='w-full h-full flex flex-col items-center px-4'>
       <div className='flex flex-col items-center space-y-5 mt-16'>
-        <h2 className='font-poppins text-gray-700 text-[28px] md:text-[30px] leading-7 font-semibold text-center'>
+        <h2 className='font-poppins text-gray-700 text-[28px] md:text-[30px] lg:text-[32px] leading-7 font-semibold text-center'>
           Services We Offer
         </h2>
-        <p className='font-poppins text-gray-700 text-[16px] md:text-[18px] leading-6 font-medium text-center'>
+        <p className='font-poppins text-gray-700 text-[16px] md:text-[18px] lg:text-[20px] leading-6 font-medium text-center'>
           Transform your HR operations with expert consulting, training programs, <br /> and advanced technology solutions.
         </p>
       </div>
 
-     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 w-full max-w-6xl">
         {services.map((service, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
@@ -62,21 +61,20 @@ const Services = () => {
         ))}
       </div>
 
-    
       <div className='flex flex-wrap justify-center items-center gap-8 mt-16'>
-        <span className='flex items-center font-poppins text-gray-700 text-[16px] leading-6 font-semibold gap-2'>
+        <span className='flex items-center font-poppins text-gray-700 text-[16px] md:text-[18px] leading-6 font-semibold gap-2'>
           <FaPinterest size={30} /> Pinterest
         </span>
-        <span className='flex items-center font-poppins text-gray-700 text-[16px] leading-6 font-semibold gap-2'>
+        <span className='flex items-center font-poppins text-gray-700 text-[16px] md:text-[18px] leading-6 font-semibold gap-2'>
           <SiAirtable size={30} /> Airtable
         </span>
-        <span className='flex items-center font-poppins text-gray-700 text-[16px] leading-6 font-semibold gap-2'>
+        <span className='flex items-center font-poppins text-gray-700 text-[16px] md:text-[18px] leading-6 font-semibold gap-2'>
           <SiNetflix size={30} /> Netflix
         </span>
-        <span className='flex items-center font-poppins text-gray-700 text-[16px] leading-6 font-semibold gap-2'>
+        <span className='flex items-center font-poppins text-gray-700 text-[16px] md:text-[18px] leading-6 font-semibold gap-2'>
           <FaAtlassian size={30} /> Atlassian
         </span>
-        <span className='flex items-center font-poppins text-gray-700 text-[16px] leading-6 font-semibold gap-2'>
+        <span className='flex items-center font-poppins text-gray-700 text-[16px] md:text-[18px] leading-6 font-semibold gap-2'>
           <FaGoogle size={30} /> Google
         </span>
       </div>
